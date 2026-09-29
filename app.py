@@ -1,6 +1,7 @@
 import streamlit as st
 
-st.title("Evaluación de un lote")
+st.sidebar.title("Evaluación de un lote")
+st.sidebar.write ("Facultad de Ciencias Químicas")
 
 pH = st.number_input(
     "pH",
